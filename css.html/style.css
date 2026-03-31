@@ -22,37 +22,6 @@ body {
   background: radial-gradient(circle at 60% 50%, #eef5fa 0%, #ddeefa89 100%);
 }
 
-.bg-circles {
-  position: absolute;
-  top: 55%;
-  left: 79%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-}
-
-.circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 1.5px solid #ffffff;
-  border-radius: 50%;
-  opacity: 0.8;
-}
-
-.circle-1 {
-  width: 400px;
-  height: 400px;
-}
-.circle-2 {
-  width: 700px;
-  height: 700px;
-}
-.circle-3 {
-  width: 1000px;
-  height: 1000px;
-}
-
 /* Navbar */
 
 .navbar {
@@ -186,6 +155,7 @@ body {
     font-weight: 600;
     font-size: 46px;
     line-height: 46px;
+    margin-bottom: 40px;
 }
 
 .info-column {
@@ -488,3 +458,332 @@ body {
     font-weight: 600;
 }
 
+/* methodology-row */
+
+.methodology {
+    border-radius: 80px;
+    background-color: #FFFFFF;
+    margin: 120px ;
+}
+
+.methodology .container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.methodology__row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 60px;
+}
+
+.methodology__row--reverse {
+   max-width: 1160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 60px;
+    flex-direction: row-reverse;
+}
+
+.methodology__img-wrapper {
+    width: 401px;
+    height: 313px;
+    background-color: #EAF2F5;
+    border-radius: 40px;
+    padding: 45px;
+}
+
+.methodology__content {
+    width: 730px;
+    height: 313px;
+    background-color: #EAF2F5;
+    border-radius: 40px;
+    padding: 50px;
+}
+
+.methodology__content h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.methodology__content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+
+/* Pricing Table */
+
+.pricing {
+    padding: 80px 0;
+    background-color: #FCFCFC;
+    text-align: center;
+}
+
+
+.pricing__benefits {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+    flex: 1;
+}
+
+.benefit-item-medium {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    text-align: left;
+    flex: 0.8;
+}
+
+.benefit-item-medium p {
+    width: 158px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.benefit-item-right {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    text-align: left;
+    flex: 0.8;
+}
+
+.benefit-item-right p {
+    width: 301px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.pricing {
+  background-color: #F2F7FF;
+}
+
+.pricing .container{
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F2F7FF;
+}
+
+.pricing h2 {
+    font-size: 46px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.pricing__table-card {
+    background: #ffffff;
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.03);
+}
+
+.benefit-item p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.table-row, .table-header, .table-footer {
+    display: flex;           
+    justify-content: space-between; 
+    align-items: center;      
+    padding: 15px 25px;        
+    text-align: left;
+}
+
+.table-row span:first-child, 
+.table-header span:first-child, 
+.table-footer strong:first-child {
+    flex: 3; 
+}
+
+.table-row span:nth-child(2), 
+.table-header span:nth-child(2), 
+.table-footer strong:nth-child(2) {
+    flex: 1.5; 
+}
+
+.table-row span:last-child, 
+.table-header span:last-child, 
+.table-footer strong:last-child {
+    flex: 1.5; 
+    text-align: left;
+    white-space: normal;
+}
+
+.table-body .table-row:nth-child(odd) {
+    background-color: #f4f7f9; 
+    border-radius: 12px;       
+}
+
+.table-header {
+    color: #00aaff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.table-footer {
+    margin-top: 10px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.fotter-label {
+    margin: 30px;
+    text-align: left;
+    color: #8E8E8E;
+}
+
+/* Pricing Anounsment */
+
+.pricing__notice {
+    display: flex;
+    align-items: center;
+    height: 220px;
+    background-color: #EAF2F5;
+    border-radius: 30px;
+    padding: 35px;
+    justify-content: space-between;
+}
+
+.announcement__text {
+    width: 600px;
+    font-size: 17px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.announcement__btn {
+    width: 311px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 82px;
+    text-decoration: none;
+    padding: 20px 20px;
+    color: #FCFCFC;
+    background-color: #F15525;
+}
+
+/* Footer */
+.footer {
+    padding: 60px 0 30px;
+    color: #2d3440;
+    font-size: 14px;
+}
+
+/* Yuqori qismni Flexbox qilish */
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+/* Logo va Yozuv */
+.footer__logo-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.footer__logo-label {
+    text-align: start;
+    padding-left: 20px;
+    color: #90949c;
+    line-height: 1.2;
+}
+
+/* Ijtimoiy tarmoqlar */
+.footer__socials {
+    display: flex;
+    gap: 12px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    background: #2d3440; /* To'q rangli doira */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Navigatsiya (Ustun shaklida) */
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.footer__nav-link {
+    text-decoration: none;
+    color: #2d3440;
+    transition: 0.3s;
+}
+
+/* Kontaktlar qismi */
+.footer__contacts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__phone {
+    font-size: 18px;
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.footer__legal {
+    margin-top: 20px;
+    color: #90949c;
+    line-height: 1.6;
+}
+
+.footer-divider {
+    width: 1160px;
+    height: 1.5px;
+    background-color: #D8D8D8;
+    
+}
+
+/* Pastki qism */
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #90949c;
+    padding-top: 30px;
+}
+
+.footer__policy {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__policy-link {
+    color: #90949c;
+    text-decoration: none;
+}
