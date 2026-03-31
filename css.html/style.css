@@ -690,7 +690,6 @@ body {
     font-size: 14px;
 }
 
-/* Yuqori qismni Flexbox qilish */
 .footer__main {
     display: flex;
     justify-content: space-between;
@@ -698,7 +697,7 @@ body {
     margin-bottom: 40px;
 }
 
-/* Logo va Yozuv */
+/* Logo */
 .footer__logo-block {
     display: flex;
     align-items: center;
@@ -713,7 +712,7 @@ body {
     line-height: 1.2;
 }
 
-/* Ijtimoiy tarmoqlar */
+/* Soical */
 .footer__socials {
     display: flex;
     gap: 12px;
@@ -722,13 +721,13 @@ body {
 .social-link {
     width: 40px;
     height: 40px;
-    background: #2d3440; /* To'q rangli doira */
+    background: #2d3440; 
     border-radius: 50%;
     display: flex;
     justify-content: center;
 }
 
-/* Navigatsiya (Ustun shaklida) */
+/* Navigation */
 .footer__nav {
     display: flex;
     flex-direction: column;
@@ -742,7 +741,7 @@ body {
     transition: 0.3s;
 }
 
-/* Kontaktlar qismi */
+/* Contact section */
 .footer__contacts {
     text-align: right;
     display: flex;
@@ -769,7 +768,7 @@ body {
     
 }
 
-/* Pastki qism */
+/* Bottom */
 
 .footer__bottom {
     display: flex;
